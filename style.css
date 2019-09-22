@@ -17,7 +17,7 @@ h2 {
 h3 {
   color: #ffffff;
   font-family: Helvetica;
-  margin: 20px 50px;
+  margin: 20px 0;
 }
 
 h4 {
@@ -97,8 +97,11 @@ p {
 .butikslänkar {
   display: flex;
   flex-direction: row;
+  overflow: scroll;
 }
-
+::-webkit-scrollbar {
+    display: none;
+}
 .kontakt-p {
   color: #ffffff;
   font-family: Helvetica;
